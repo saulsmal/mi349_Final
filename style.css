@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+    background-color: #24252A;
+}
+
+li, a, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+}
+
+h1 {
+    color: #edf0f1;
+}
+
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+#about {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 10px;
+    color: #edf0f1;
+    background: #0b3252;
+}
+
+#cosmos {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #edf0f1;
+    background: #0b3252;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    outline-style: solid;
+    outline-color:#ebc002;
+}
+.check {
+    text-align: center;
+}
+.check a {
+    transition: all 0.3s ease 0s;
+}
+.check a:hover {
+    color: #0088a9;
+}
+
+#Log-In {
+    color: #edf0f1;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+#Log-In h2 {
+    padding: 60px;
+}
+
+#Log-In form {
+    padding: 10px;
+}
+
+#Sign-Up {
+    color: #edf0f1;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+#Sign-Up h2{
+    padding: 60px;
+}
+
+#Sign-Up form {
+    padding: 10px;
+}
