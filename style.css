@@ -36,6 +36,7 @@ h1 {
     color: #0088a9;
 }
 
+
 button {
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
@@ -102,6 +103,7 @@ img {
     padding: 10px;
 }
 
+
 #Sign-Up {
     color: #edf0f1;
     text-align: center;
@@ -114,4 +116,9 @@ img {
 
 #Sign-Up form {
     padding: 10px;
+}
+
+label {
+    width: 240px;
+    display: inline-block;
 }
